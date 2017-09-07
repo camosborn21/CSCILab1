@@ -6,6 +6,9 @@
 #include <vector>
 #include <iostream>
 using namespace std;
+
+
+//[9/6/2017 18:22] Cameron Osborn:  Display all elements of string typed vector parameter. 
 void IterateThroughStringVector(vector<string> vec)
 {
 	for (vector<string>::iterator iterator = vec.begin(); iterator < vec.end(); ++iterator)
@@ -44,7 +47,7 @@ int main()
 	//	Write a loop using a vector<string>::iterator iterator to iterate through the vector myVect and to display all the elements in myVect one by one.
 	cout << endl << endl << "Task 3" << endl;
 
-	//Due to reuse of this procedure I refactored it to its own function above
+	//[9/6/2017 18:22] Cameron Osborn: Due to reuse of this procedure I refactored it to its own function above
 	IterateThroughStringVector(myVect);
 
 
